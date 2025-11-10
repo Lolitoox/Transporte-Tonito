@@ -3,10 +3,6 @@ Transporte Tonito – Consola (Java)
 ==================================
 Requisitos: Java 17+ (o 11+).
 
-Compilación (Windows CMD o PowerShell):
-  cd "transporte-tonito"
-  javac -d out -source 17 -target 17 src/main/java/dominio/*.java src/main/java/servicios/*.java src/main/java/ui/*.java
-
 Ejecución:
   java -cp out ui.Main
 
